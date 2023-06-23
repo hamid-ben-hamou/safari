@@ -602,6 +602,9 @@ h1{
 .prices .price .pro a{
 	color: #fff;
 }
+.prices .price .pro a{
+	border: 1px solid var(--description-color);
+}
 /*end prices*/
 
 /*start Customer Reviews*/
@@ -900,6 +903,12 @@ footer .end{
 	justify-content: space-between;
 	margin-top: 17px;
 	align-items: center;
+}
+@media(max-width: 750px){
+	footer .end{
+		flex-direction: column-reverse;
+		gap: 40px;
+	}
 }
 footer .end p{
 	font-size: 20px;
